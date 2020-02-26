@@ -1,0 +1,78 @@
+body {
+  background-color:black;
+}
+.header {
+  padding-top: 15%;
+  color: lightblue;
+  font-family: Arial, "Helvetica", sans-serif;
+  font-size: 32px;
+  text-align: left;
+}
+.text {
+  text-align: justify;
+  font-size: 16px;
+  padding: 2% 60% 20% 5%;
+  line-height: 180%;
+  font-family: "Georgia", Times New Roman, Times, serif;
+  color: white;
+}
+.highlight {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif; 
+  color:white;
+  font-size: 20px;
+}
+.images{
+  padding-left: 50%;
+  padding-top: 8%;
+  position: absolute;
+  z-index: -1;
+  width: 45%;
+  height: auto;
+  max-width: 100%;
+}
+/* RESPONSIVE PAGES  */
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+ html, body{
+  overflow-x: hidden;
+ }
+ .header {
+  padding-top: 15%;
+  margin-bottom: 2%;
+  color: lightblue;
+  font-family: Arial, "Helvetica", sans-serif;
+  font-size: 32px;
+  text-align: left;
+}
+  .images{
+    padding-right: 50%;
+    padding-top: 40%;
+    padding-left: 28%;
+    position: absolute;
+    z-index: -1;
+    width: 60%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10%;
+  }
+  .highlight {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif; 
+    color:white;
+    font-size: 20px;
+    padding-top: 60%;
+  }
+  .text {
+    text-align: justify;
+    font-size: 16px;
+    padding: 10% 10% 40% 30%;
+    font-family: "Georgia", Times New Roman, Times, serif;
+    color: white;
+    line-height: 180%;
+  }
+}
+

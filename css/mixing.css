@@ -1,0 +1,81 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: black;
+}
+.header {
+  padding-top: 20%;
+  color: lightblue;
+  font-family: Arial, "Helvetica", sans-serif;
+}
+.sample-mixing-fonts{
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif; 
+  color:white;
+  font-size: 22px;
+}
+.text {
+  text-align: justify;
+  font-size: 16px;
+  padding: 0% 10% 10% 50%;
+  font-family: "Georgia", Times New Roman, Times, serif;
+  color: white;
+  line-height: 180%;
+}
+.images{
+  padding-right: 50%;
+  padding-top: 8%;
+  padding-left: 10%;
+  position: absolute;
+  z-index: -1;
+  width: 35%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 10%;
+}
+
+/* RESPONSIVE PAGES  */
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+  html, body{
+    overflow-x: hidden;
+  }
+  /* body {
+    position: relative
+  } */
+  .header {
+    padding-top: 10%;
+    color: lightblue;
+    font-family: Arial, "Helvetica", sans-serif;
+  }
+  .images{
+    padding-right: 50%;
+    padding-top: 30%;
+    padding-left: 30%;
+    position: absolute;
+    z-index: -1;
+    width: 55%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10%;
+  }
+  .text {
+    text-align: justify;
+    font-size: 16px;
+    padding: 10% 10% 40% 30%;
+    font-family: "Georgia", Times New Roman, Times, serif;
+    color:white;
+    line-height: 180%;
+  }
+  .sample-mixing-fonts{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif; 
+    color:white;
+    font-size: 22px;
+    padding-top: 100%;
+  }
+
+}
